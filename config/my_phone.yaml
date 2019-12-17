@@ -1,0 +1,15 @@
+admin:
+  reg_name: admin
+  type: 0
+  userPhone: '17806158923'
+  user_Id: 82609
+borrow:
+  reg_name: borrow
+  type: 1
+  userPhone: '17831076985'
+  user_Id: 82610
+invest:
+  reg_name: invest
+  type: 1
+  userPhone: '17809615378'
+  user_Id: 82611

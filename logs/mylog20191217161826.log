@@ -1,0 +1,15 @@
+2019-12-17 16:18:26,847 - interfacework - [test_01_register.py-->line:42] - INFO: 正确格式的数据注册成功
+2019-12-17 16:18:27,267 - interfacework - [test_01_register.py-->line:42] - INFO: 密码为空
+2019-12-17 16:18:27,707 - interfacework - [test_01_register.py-->line:42] - INFO: 密码少于8位
+2019-12-17 16:18:28,128 - interfacework - [test_01_register.py-->line:42] - INFO: 密码大于16位
+2019-12-17 16:18:28,278 - interfacework - [test_01_register.py-->line:42] - INFO: 手机号为空
+2019-12-17 16:18:28,428 - interfacework - [test_01_register.py-->line:42] - INFO: 手机号密码均为空
+2019-12-17 16:18:28,558 - interfacework - [test_01_register.py-->line:42] - INFO: 手机号输入为空格
+2019-12-17 16:18:28,708 - interfacework - [test_01_register.py-->line:38] - ERROR: Lists differ: [2, '密码格式为8到16位'] != [2, '无效的手机格式']
+
+First differing element 1:
+'密码格式为8到16位'
+'无效的手机格式'
+
+- [2, '密码格式为8到16位']
++ [2, '无效的手机格式'] : 此手机号和密码均输入为空格已执行完毕

@@ -1,0 +1,25 @@
+excel:
+  excel_name: excelcases.xlsx
+
+mysql:
+  host_name: api.lemonban.com
+  user_name: future
+  password: '123456'
+  port: 3306
+  db: futureloan
+  sql: select * from member where mobile_phone=%s
+
+
+myphone:
+  prefix_phone: "178"
+  head: {'Content-Type': 'Application/json', 'X-Lemonban-Media-Type':'lemonban.v2'}
+  phonepath: my_phone.yaml
+
+api:
+  load: http://api.lemonban.com/futureloan
+  register: /member/register
+
+log:
+  format: '%(asctime)s - %(name)s - [%(filename)s-->line:%(lineno)d] - %(levelname)s: %(message)s'
+  name: interfacework
+  level: DEBUG
